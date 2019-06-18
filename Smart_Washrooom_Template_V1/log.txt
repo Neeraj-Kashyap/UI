@@ -1,0 +1,99 @@
+1] Add the below code in body tag
+
+<!-- <img src="img_girl.jpg" class="img" style="width:80px;height:80px;float:left;"> -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<img src="../Smart_Washrooom_Template_V1/images/logo/sws.png" class="img" style="width:155px;height:140px;float:left;">
+<!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+</button> -->
+
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#"><p class="nav-bar">
+        <i class="fa fa-fw fa-home"></i>Home</p><span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="#"><p class="nav-bar"><i class="fa fa-tasks"></i> Schedule</p></a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="#"><p class="nav-bar"><i class="fa fa-bell-o" ></i> Alert</p></a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="#"><p class="nav-bar"><i class="fa fa-list-alt"></i> Complaints</p></a>
+      </li>
+
+      <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img src="../Smart_Washrooom_Template_V1/images/logo/Admin.png" class="img" style="width:80px;height:80px;margin-left:450px;float:right;">
+            Housekeeper
+
+          </a>
+          <div class="dropdown-menu" style="margin-left:390px;" aria-labelledby="navbarDropdown">
+            <a class="nav-link" href="#">Logout</a>
+            <a class="nav-link" href="#">Change Password</a>
+          </div>
+      </li>
+    </ul> 
+    
+    <!-- 
+      <div class="topnav" id="myTopnav">
+        <a href="#home"class="ex1"><i class="fa fa-fw fa-home"></i> Home</a>
+        <a href="#schedule" class="ex1"> <i class="fa fa-tasks"></i> Schedule</a>
+        <a href="#alert" class="ex1"><i class="fa fa-bell-o" ></i> Alert</a>
+        <a href="#complaints" class="ex1"><i class="fa fa-list-alt"></i> Complaints</a>
+          <a href="#change_password" class="ex1"><i class="fa fa-lock"></i> Change Password</a>
+        <a href="#logout" class="ex1"><i class="fa fa-times"></i> Logout</a>
+                  
+                  
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      -->     
+      </div> 
+    
+</nav>
+
+2] Add the code in body tag
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<img src="../Smart_Washrooom_Template_V1/images/logo/sws.png" class="img" style="width:155px;height:140px;float:left;">
+<!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+</button> -->
+
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#"><p class="nav-bar">
+        <i class="fa fa-fw fa-home"></i>Home</p><span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="#"><p class="nav-bar"><i class="fa fa-tasks"></i> Schedule</p></a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="#"><p class="nav-bar"><i class="fa fa-bell-o" ></i> Alert</p></a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="#"><p class="nav-bar"><i class="fa fa-list-alt"></i> Complaints</p></a>
+      </li>
+
+      <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img src="../Smart_Washrooom_Template_V1/images/logo/Admin.png" class="img" style="width:80px;height:80px;margin-left:450px;float:right;">
+            Housekeeper
+
+          </a>
+          <div class="dropdown-menu" style="margin-left:390px;" aria-labelledby="navbarDropdown">
+            <a class="nav-link" href="#">Logout</a>
+            <a class="nav-link" href="#">Change Password</a>
+          </div>
+      </li>
+    </ul> 
+    </div> 
+    
+</nav>
+  
+ 3]   
