@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="../Smart_Washrooom_Template_V1/css/style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+<style>
+ 
+
+</style>
+
+</head>
+
+<!--
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+-->
+
+<body>
+    <img src="../Smart_Washrooom_Template_V1/images/logo/sws.png" class="img" style="width:155px;height:140px;float:left;">
+  
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-trasparent"> -->
+      <div class="topnav" id="myTopnav">
+         
+
+         <a href="#home"class="ex1"><i class="fa fa-fw fa-home"></i> Home</a>
+            <a href="#schedule" class="ex1"> <i class="fa fa-tasks"></i> Schedule</a>
+            <a href="#alert" class="ex1"><i class="fa fa-bell-o" ></i> Alert</a>
+            <a href="#complaints" class="ex1"><i class="fa fa-list-alt"></i> Complaints</a>
+            <!-- <a href="#change_password" class="ex1"><i class="fa fa-lock"></i> Change Password</a>
+            <a href="#logout" class="ex1"><i class="fa fa-times"></i> Logout</a> -->
+                 
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+     </div>
+      <!-- margin-top:-65px;  Changed the margins--> 
+      <img src="../Smart_Washrooom_Template_V1/images/logo/Admin.png" class="img" style="width:50px;height:50px;margin-left:80%;margin-top:-5.5%;float:left;">
+          <br><br>
+    	
+            
+    <!-- </nav> -->
+
+
+<div class="sidebar">
+   <!-- <img src="img_girl.jpg" class="img" style="width:80px;height:80px;float:right;"> -->
+<!-- <img src="../Smart_Washrooom_Template_V1/images/logo/sws.png" class="img" style="width:80px;height:80px;float:left;z-index:-1;"> -->
+  
+<li><a href="#home"><i class="fa fa-fw fa-home fa-2x"></i> Home</a> </li>
+  <li><a href="#schedule"> <i class="fa fa-tasks fa-2x"></i> Schedule</a></li>
+ <li> <a href="#alert"><i class="fa fa-bell-o fa-2x"></i> &nbsp;Alert</a></li>
+ <li> <a href="#complaints"><i class="fa fa-list-alt fa-2x"></i> Complaints</a></li>
+ <li> <a href="#change_password">&nbsp;<i class="fa fa-lock fa-2x"></i> Change Password</a></li>
+ <li><a href="#logout">&nbsp;<i class="fa fa-times fa-2x"></i> &nbsp;Logout</a></li>
+  
+</div>
+            
+        
+<div class="main">
+  <h2>Demo Page</h2>
+  <p>The side navigation is of full height (100%) is shown on mobile view.</p>
+  <p> The page displayed is for demo purpose. The graphs and all other data should be displayed here. The page view is perfect in mobile and desktop view.</p>
+</div>
+
+
+
+<script>
+      function myFunction() {
+       var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+         	x.className += " responsive";
+       	} 
+         	else 
+                     {
+         	    x.className = "topnav";
+                          }
+      }
+      
+</script>
+ 
+
+</body>
+</html>
