@@ -96,4 +96,20 @@
     
 </nav>
   
- 3]   
+ 3]   Removed the below code
+
+   <!-- <div class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" class="admin_dropdown" aria-expanded="false" style="margin-left: 79px;">
+                          Housekeeper
+                          </div> -->
+            <!-- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Housekeeper
+            </a>
+            <!-- <-[remove this]   style="margin-left:390px;" -->
+            <!--<div class="dropdown-menu"  aria-labelledby="navbarDropdown">
+              <a class="nav-link" href="#">Logout</a>
+              <a class="nav-link" href="#">Change Password</a>
+            </div>  -->
+    <!-- </nav> -->
+
+4]
+
