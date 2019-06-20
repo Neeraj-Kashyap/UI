@@ -2,8 +2,15 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    /* box-shadow: 0 24px 7px 0 rgba(238, 231, 226, 0.877); */
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    background: whitesmoke;
+
+
   }
   
+
+
    
              .topnav 
                 {
@@ -16,7 +23,7 @@ body {
                 {
                   width:50px;
                   height:50px;
-                  margin-right:70px;
+                  margin-right:95px;
                   margin-top:-60px;
                   float: right;
                   position: static;
@@ -37,43 +44,58 @@ body {
                 }  
 
 
-                .drop_desc
-                {
-                 margin-left:950px;background:transparent;border: none;
-                 position: absolute;
-                }
-                /*Housekeeper Image is on right side*/       
+               
+              /*Housekeeper Image is on right side*/       
 
-            @media screen and (max-width: 715px) {
-            
-              .admin_image
-            {
-              width:50px;
-              height:50px;
-              margin-right:70px;
-              margin-top:-30px;
-              float: right;
-              position: static;
-            }
+            @media(max-width: 740px) 
+                    {
+                        .admin_image
+                        {
+                          width:50px;
+                          height:50px;
+                          margin-right:70px;
+                          margin-top:20px;
+                          float: right;
+                          position: static;
+                        }
 
-}
+                        .dropdown 
+                        {
+                          position: absolute;
+                          float: right;
+                          display: block;
+                          left: 155px; 
+                          padding-top: 25px;
+                          margin-top: 55px;
+                          
+                        }
+                        
+                        .dropdown-content {
+                          display: none;
+                          position: relative;
+                          background-color: #f1f1f1;
+                          min-width: 160px;
+                          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                          z-index: 1;
+                          margin-left: 900px;
+                          margin-right: 180px;
+                        }
+                        
+                    }
 
 
 
 /*Drop menu arrow hide*/
-.dropbtn {
-  /* background-color: #4CAF50; */
-  background-color: transparent;
-  color: black;/*white*/
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  margin-left: 950px;
-}
+
+
 
 .dropdown {
-  position: relative;
-  display: inline-block;
+  position: absolute;
+  float: right;
+  margin-right: 55px;
+  display: block;
+  outline-color: none;
+  outline-style: none;
 }
 
 .dropdown-content {
@@ -83,7 +105,7 @@ body {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
-  margin-left: 950px;
+  margin-left: 900px;
 }
 
 .dropdown-content a {
@@ -97,7 +119,7 @@ body {
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: transparent;/*#3e8e41;*/}
+.dropdown:hover .dropbtn {background-color: /*#3e8e41;*/}
 
 
 
@@ -133,7 +155,7 @@ body {
   }
   
   .topnav a:hover {
-    background-color:darkseagreen;
+    background-color:rgba(148, 150, 148, 0.356);
     color: black; 
   }
   
@@ -182,12 +204,13 @@ body {
   
   
   @media screen and (max-width: 500px) {
-      .topnav,.img,.admin_image
+      .topnav,.img,.admin_image,.dropdown,.dropdown-content
       {
           display:none;
+          
       }  
       
-      .topnav .icon
+      .topnav,.icon
       {
           display:none;
       }
@@ -203,7 +226,7 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color:#111;
     overflow-x: hidden;
     padding-top: 16px;
   }
@@ -286,7 +309,7 @@ body {
   width:250px;
   }
   
-  
+  /*Do not remove this code, it is for orientation*/
   
     /*@media (orientation: landscape)  and (max-height: 1500px) 
      {
